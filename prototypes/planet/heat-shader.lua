@@ -25,7 +25,7 @@ for k = 1, 32 do
 end
 --local visiblity = tonumber(settings.startup["maraxsis-water-opacity"].value) / 255
 --local visiblity = 255 / 255
-local visiblity = 100 / 255
+local visiblity = 0
 water.animations = {
 	tint = { r = visiblity, g = visiblity, b = visiblity, a = 1 / 255 },
 	height = 256,
